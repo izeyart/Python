@@ -16,6 +16,7 @@ while True:
     tryAgain =input("Do you want to check again? Y/N" ).lower()
     if tryAgain!="y":
         print("Thanks for your time")
+        break
     
 
     

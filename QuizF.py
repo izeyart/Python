@@ -3,7 +3,7 @@ guessedAnswer=""
 guesses=3
 score=0
 while guessedAnswer!=secretAnswer and guesses>0:
-    guessedAnswer=input("What is the by name of Hearts of oak")
+    guessedAnswer=input("What is the by Name of Hearts of oak")
     guesses-=1
     if guessedAnswer==secretAnswer:
         score+=1
@@ -20,7 +20,7 @@ hguessedAnswer=""
 hguesses=3
 score=0
 while hguessedAnswer!=hsecretAnswer and hguesses>0:
-    hguessedAnswer=input("What is the by name of Asante Kotoko F.C?: ")
+    hguessedAnswer=input("What is the by Name of Asante Kotoko F.C?: ")
     hguesses-=1
     if hguessedAnswer==hsecretAnswer:
         score+=1

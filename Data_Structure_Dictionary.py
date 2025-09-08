@@ -7,8 +7,8 @@ my_dictionary = {
 print(f"Initial Dictionary: {my_dictionary}")
 
 #Access the value associated with the key "model"
-model_name = my_dictionary["model"]
-print(f"Model: {model_name}")
+model_Name = my_dictionary["model"]
+print(f"Model: {model_Name}")
 
 #Access the value associated with the key "year"
 year_value = my_dictionary["model"]

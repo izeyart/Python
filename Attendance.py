@@ -1,7 +1,7 @@
 class Attendance:
     def __init__(self, course):
         self.course = course
-        self.records = {}
+        self.records = []
 
     def mark_session(self, session_marks):
         self.records.append(session_marks)
